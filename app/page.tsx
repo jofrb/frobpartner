@@ -11,7 +11,7 @@ export default function Home() {
         </p>
         <p className="text-stone-800 font-medium text-lg">
           Vill du hyra något av oss? Ring då Emanuel:{" "}
-          <a href="tel:+46706296294" className="text-amber-700 underline underline-offset-4">
+          <a href="tel:+46706296294" className="text-amber-700 underline underline-offset-4 whitespace-nowrap">
             070 629 62 94
           </a>
         </p>
