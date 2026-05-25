@@ -10,7 +10,7 @@ export default function Home() {
           hitta information om maskinerna och utrustningen som vi hyr ut.
         </p>
         <p className="text-stone-800 font-medium text-lg">
-          Vill du hyra något av oss? Ring:{" "}
+          Vill du hyra något av oss? Ring då Emanuel:{" "}
           <a href="tel:+46706296294" className="text-amber-700 underline underline-offset-4">
             070 629 62 94
           </a>
