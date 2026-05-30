@@ -53,8 +53,11 @@ export default function Header() {
           <Link href="/" className="hover:text-white transition-colors">
             Hem
           </Link>
+          <Link href="/utrustning" className="hover:text-white transition-colors">
+            Utrustning
+          </Link>
           <Link href="/villkor" className="hover:text-white transition-colors">
-            Allmänna villkor
+            Villkor
           </Link>
         </nav>
       </div>
