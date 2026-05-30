@@ -13,7 +13,7 @@ export default function Home() {
             Direkt.
           </h1>
           <p className="text-white/70 text-lg sm:text-xl max-w-xl leading-relaxed mb-10">
-            Grävmaskin, plattvibrator och byggställning — välskött utrustning
+            Grävmaskin, markvibrator och byggställning — välskött utrustning
             för ditt projekt i Luleåområdet. Inget krångel, ring och boka.
           </p>
           <a
