@@ -13,8 +13,8 @@ export default function Home() {
             Direkt.
           </h1>
           <p className="text-white/70 text-lg sm:text-xl max-w-xl leading-relaxed mb-10">
-            Vi hyr ut maskiner och utrustning till privatpersoner och företag.
-            Inget krångel — ring och boka.
+            Grävmaskin, plattvibrator och byggställning — välskött utrustning
+            för ditt projekt i Luleåområdet. Inget krångel, ring och boka.
           </p>
           <a
             href="tel:+46706296294"
@@ -37,6 +37,12 @@ export default function Home() {
           <p className="mt-4 text-white/40 text-sm">
             Fråga efter Emanuel
           </p>
+          <a
+            href="/utrustning"
+            className="inline-block mt-6 text-white/50 hover:text-white/80 text-sm underline underline-offset-4 transition-colors"
+          >
+            Se vad vi hyr ut →
+          </a>
         </div>
       </section>
 
