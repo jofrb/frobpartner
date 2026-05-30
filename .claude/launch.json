@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "frobpartner",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": ["-c", "PATH=\"/Users/froeb/Library/Application Support/Zed/node/node-v24.11.0-darwin-arm64/bin:$PATH\" npm run dev"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
