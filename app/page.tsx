@@ -8,7 +8,7 @@ export default function Home() {
             Maskinhyra i Luleåområdet
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Rätt maskin.<br />
+            Rätt utrustning.<br />
             Rätt pris.<br />
             Direkt.
           </h1>
