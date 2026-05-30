@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Utrustning att hyra – Fröb Partner",
-  description: "Vi hyr ut grävmaskin, plattvibrator och byggställning i Luleåområdet. Ring Emanuel för bokning.",
+  description: "Vi hyr ut grävmaskin, markvibrator och byggställning i Luleåområdet. Ring Emanuel för bokning.",
 };
 
 const equipment = [
@@ -34,7 +34,7 @@ const equipment = [
     ),
   },
   {
-    name: "Padda (plattvibrator)",
+    name: "Padda (markvibrator)",
     description:
       "Kompaktvibrator för att packa grus, sand och asfalt. Perfekt inför plattsättning, uppfartsvägar och markarbeten.",
     useCases: ["Packning av grus & sand", "Inför plattsättning", "Uppfartsvägar", "Asfaltarbeten"],
