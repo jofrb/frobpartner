@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Utrustning att hyra – Fröb Partner",
   description:
-    "Vi hyr ut grävmaskin, markvibrator och byggställning i Luleåområdet. Ring Emanuel för bokning.",
+    "Vi hyr ut grävmaskin, markvibrator och byggställning i Norrbotten. Ring Emanuel för bokning.",
 };
 
 const equipment = [

@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Fröb Partner – Maskinhyra",
-  description: "Hyr grävmaskin, byggställning och padda i Luleåområdet.",
+  description: "Hyr grävmaskin, byggställning och padda i Norrbotten.",
 };
 
 export default function RootLayout({

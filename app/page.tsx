@@ -5,7 +5,7 @@ export default function Home() {
       <section className="bg-[#1c3d2a] text-white py-20 sm:py-28 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto">
           <p className="text-[#4a8c62] text-sm font-semibold uppercase tracking-widest mb-3">
-            Maskinhyra i Luleåområdet
+            Utrustningshyra i Norbottenområdet
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
             Rätt utrustning.
@@ -16,7 +16,7 @@ export default function Home() {
           </h1>
           <p className="text-white/70 text-lg sm:text-xl max-w-xl leading-relaxed mb-10">
             Grävmaskin, markvibrator och byggställning — välskött utrustning för
-            ditt projekt i Luleåområdet. Inget krångel, ring och boka.
+            ditt projekt i Norrbotten. Inget krångel, ring och boka.
           </p>
           <a
             href="tel:+46706296294"
