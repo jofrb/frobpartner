@@ -175,7 +175,7 @@ const equipment = [
   {
     name: "Byggställning",
     description:
-      "Modulär byggställning som passar för fasadarbeten, målning och liknande jobb på hus och byggnader. Vi hjälper dig räkna ut hur mycket du behöver.",
+      "Modulär rullställning i aluminium som passar för fasadarbete, målning, takarbete och liknande jobb. Upp till 8 meters arbetshöjd. På den 135 cm djupa ställningen rymmer du dubbla platformar på varje nivå",
     useCases: [
       "Fasadrenovering",
       "Målning & puts",
