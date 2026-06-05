@@ -2,8 +2,19 @@ import Link from "next/link";
 
 function Logo() {
   return (
-    <svg viewBox="0 0 220 52" xmlns="http://www.w3.org/2000/svg" className="h-9 w-auto">
-      <circle cx="26" cy="26" r="24" fill="none" stroke="white" strokeWidth="1.5" />
+    <svg
+      viewBox="0 0 220 52"
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-9 w-auto"
+    >
+      <circle
+        cx="26"
+        cy="26"
+        r="24"
+        fill="none"
+        stroke="white"
+        strokeWidth="1.5"
+      />
       <text
         x="26"
         y="34"
@@ -53,7 +64,10 @@ export default function Header() {
           <Link href="/" className="hover:text-white transition-colors">
             Hem
           </Link>
-          <Link href="/utrustning" className="hover:text-white transition-colors">
+          <Link
+            href="/utrustning"
+            className="hover:text-white transition-colors"
+          >
             Utrustning
           </Link>
           <Link href="/villkor" className="hover:text-white transition-colors">

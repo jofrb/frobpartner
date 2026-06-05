@@ -1,7 +1,11 @@
 function LogoA() {
   // Concept A: Bold serif wordmark — "FRÖB" large + "PARTNER" tracked out below
   return (
-    <svg viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg" className="w-full">
+    <svg
+      viewBox="0 0 260 80"
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-full"
+    >
       <text
         x="10"
         y="52"
@@ -31,9 +35,20 @@ function LogoA() {
 function LogoB() {
   // Concept B: Monogram mark "FP" in a circle + wordmark to the right
   return (
-    <svg viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg" className="w-full">
+    <svg
+      viewBox="0 0 280 72"
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-full"
+    >
       {/* Circle */}
-      <circle cx="36" cy="36" r="34" fill="none" stroke="white" strokeWidth="2" />
+      <circle
+        cx="36"
+        cy="36"
+        r="34"
+        fill="none"
+        stroke="white"
+        strokeWidth="2"
+      />
       {/* FP monogram */}
       <text
         x="36"
@@ -77,7 +92,11 @@ function LogoB() {
 function LogoC() {
   // Concept C: Minimal — "Fröb" in serif + thin vertical divider + "Partner" in lighter weight
   return (
-    <svg viewBox="0 0 280 56" xmlns="http://www.w3.org/2000/svg" className="w-full">
+    <svg
+      viewBox="0 0 280 56"
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-full"
+    >
       <text
         x="0"
         y="42"
@@ -121,21 +140,24 @@ const logos = [
   {
     id: "A",
     label: "A — Stark & enkel",
-    description: "\"FRÖB\" i fet stil, \"PARTNER\" luftigt nedanför. Lättläst i alla storlekar.",
+    description:
+      '"FRÖB" i fet stil, "PARTNER" luftigt nedanför. Lättläst i alla storlekar.',
     component: <LogoA />,
     width: "w-48",
   },
   {
     id: "B",
     label: "B — Monogram + wordmark",
-    description: "\"FP\" i cirkel med full text bredvid. Mer formell, passar bra på dokument och profilering.",
+    description:
+      '"FP" i cirkel med full text bredvid. Mer formell, passar bra på dokument och profilering.',
     component: <LogoB />,
     width: "w-64",
   },
   {
     id: "C",
     label: "C — Delad med accentlinje",
-    description: "\"Fröb\" och \"Partner\" separerade av en amber-linje. Luftig och modern.",
+    description:
+      '"Fröb" och "Partner" separerade av en amber-linje. Luftig och modern.',
     component: <LogoC />,
     width: "w-64",
   },
@@ -145,27 +167,37 @@ export default function LogotypPage() {
   return (
     <div className="flex-1 bg-[#f5f2ec] py-14 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-2xl font-bold text-[#1c3d2a] mb-2">Logotypalternativ</h1>
+        <h1 className="text-2xl font-bold text-[#1c3d2a] mb-2">
+          Logotypalternativ
+        </h1>
         <p className="text-[#3a3a35] mb-10 text-sm">
-          Tre koncept — visas mot den gröna headerbakgrunden som de faktiskt används på.
+          Tre koncept — visas mot den gröna headerbakgrunden som de faktiskt
+          används på.
         </p>
 
         <div className="flex flex-col gap-8">
           {logos.map((logo) => (
-            <div key={logo.id} className="rounded-xl overflow-hidden border border-[#1c3d2a]/10">
+            <div
+              key={logo.id}
+              className="rounded-xl overflow-hidden border border-[#1c3d2a]/10"
+            >
               {/* Preview on dark green */}
               <div className="bg-[#1c3d2a] px-10 py-10 flex items-center justify-start">
                 <div className={logo.width}>{logo.component}</div>
               </div>
               {/* Preview on light */}
               <div className="bg-white px-10 py-6 flex items-center justify-start border-t border-[#1c3d2a]/10">
-                <div className={`${logo.width} [&_text]:!fill-[#1c3d2a] [&_circle]:!stroke-[#1c3d2a]`}>
+                <div
+                  className={`${logo.width} [&_text]:!fill-[#1c3d2a] [&_circle]:!stroke-[#1c3d2a]`}
+                >
                   {logo.component}
                 </div>
               </div>
               {/* Description */}
               <div className="bg-[#f5f2ec] px-6 py-4 border-t border-[#1c3d2a]/10">
-                <p className="font-bold text-[#1c3d2a] text-sm mb-1">{logo.label}</p>
+                <p className="font-bold text-[#1c3d2a] text-sm mb-1">
+                  {logo.label}
+                </p>
                 <p className="text-[#3a3a35] text-sm">{logo.description}</p>
               </div>
             </div>
