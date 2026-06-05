@@ -122,7 +122,10 @@ export default function Villkor() {
             <h2 className="font-bold text-stone-900 mb-3">{section.title}</h2>
             <ol className="space-y-2 list-none">
               {section.items.map((item, i) => (
-                <li key={i} className="flex gap-3 text-stone-700 text-sm leading-relaxed">
+                <li
+                  key={i}
+                  className="flex gap-3 text-stone-700 text-sm leading-relaxed"
+                >
                   <span className="text-stone-400 shrink-0 font-mono text-xs pt-0.5">
                     {section.title.split(".")[0]}.{i + 1}
                   </span>

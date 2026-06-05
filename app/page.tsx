@@ -8,13 +8,15 @@ export default function Home() {
             Maskinhyra i Luleåområdet
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Rätt utrustning.<br />
-            Rätt pris.<br />
+            Rätt utrustning.
+            <br />
+            Rätt pris.
+            <br />
             Direkt.
           </h1>
           <p className="text-white/70 text-lg sm:text-xl max-w-xl leading-relaxed mb-10">
-            Grävmaskin, markvibrator och byggställning — välskött utrustning
-            för ditt projekt i Luleåområdet. Inget krångel, ring och boka.
+            Grävmaskin, markvibrator och byggställning — välskött utrustning för
+            ditt projekt i Luleåområdet. Inget krångel, ring och boka.
           </p>
           <a
             href="tel:+46706296294"
@@ -34,9 +36,7 @@ export default function Home() {
             </svg>
             070 629 62 94
           </a>
-          <p className="mt-4 text-white/40 text-sm">
-            Fråga efter Emanuel
-          </p>
+          <p className="mt-4 text-white/40 text-sm">Fråga efter Emanuel</p>
           <a
             href="/utrustning"
             className="inline-block mt-6 text-white/50 hover:text-white/80 text-sm underline underline-offset-4 transition-colors"
@@ -70,9 +70,16 @@ export default function Home() {
                 body: "Allt underhålls löpande. Du kan lita på att maskinen du hyr faktiskt fungerar.",
               },
             ].map((item) => (
-              <div key={item.title} className="border-l-4 border-[#1c3d2a] pl-5">
-                <h3 className="font-bold text-[#1c3d2a] text-lg mb-2">{item.title}</h3>
-                <p className="text-[#3a3a35] leading-relaxed text-sm sm:text-base">{item.body}</p>
+              <div
+                key={item.title}
+                className="border-l-4 border-[#1c3d2a] pl-5"
+              >
+                <h3 className="font-bold text-[#1c3d2a] text-lg mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-[#3a3a35] leading-relaxed text-sm sm:text-base">
+                  {item.body}
+                </p>
               </div>
             ))}
           </div>
