@@ -9,7 +9,7 @@ const equipment = [
   {
     name: "Kubota grävmaskin (2 ton)",
     description:
-      "Kompakt 2-tonsgrävare som levereras på eget boggisläp — smidig att få in på trånga tomter och villafastigheter. Passar utmärkt för mindre mark- och schaktarbeten. Maskinen levereras med tre skoptyper: grävskopa, planeringsskopa och smalkopa.",
+      "Kompakt 2-tonsgrävare som levereras på eget boggisläp (80 km/h) — smidig att få in på trånga tomter och villafastigheter. Passar utmärkt för mindre mark- och schaktarbeten. Maskinen levereras med tre skoptyper: grävskopa, planeringsskopa och smalkopa.",
     useCases: ["Schaktning & markarbeten", "Dränering", "Trädgårdsarbete", "Grundläggning"],
     icon: (
       <svg viewBox="0 0 72 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-14 h-12">
@@ -79,9 +79,9 @@ const equipment = [
     ),
   },
   {
-    name: "Boggisläp (kåp)",
+    name: "Släp",
     description:
-      "Stort boggisläp med kåp — rymmer maskiner och tyngre utrustning. Används bland annat för transport av grävmaskinen. Kåpen skyddar lasten från väder och vind.",
+      "Stort släp med kåpa — fungerar bra för skotertransport och flyttningar. Kåpan skyddar lasten från väder och vind. Flakmått: 220 x 400 cm. Lastvikt 800 kg, Totalvikt: 1250 kg, Dras på B-kort med de flesta bilar",
     useCases: ["Maskintransport", "Tung utrustning", "Verktyg & material"],
     icon: (
       <svg viewBox="0 0 72 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-14 h-12">
