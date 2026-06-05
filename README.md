@@ -1,6 +1,6 @@
 # Fröb Partner
 
-Website for Fröb Partner — equipment rental in the Luleå area.
+Website for Fröb Partner — equipment rental in the Norrbotten area.
 Live at [frobpartner.se](https://frobpartner.se).
 
 ## Stack
